@@ -7,7 +7,7 @@ A collection of basic functions so that you don't have to write them every time.
 NPM:
 
 ```
-npm i basic-function
+npm i @advikguptadev/basic-function
 ```
 
 CDN:
