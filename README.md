@@ -7,17 +7,20 @@ A collection of basic functions so that you don't have to write them every time.
   - [Installing](#installing)
   - [Example](#example)
   - [Functions](#functions)
+    - [Print](#print)
+    - [Remove From Array](#remove-from-array)
+    - [Shuffle Array](#shuffle-array)
 
 
 # Installing
 
-NPM:
+Using npm:
 
 ```
 npm i @advikguptadev/basic-function
 ```
 
-CDN:
+Using jsDelivr CDN:
 
 ```
 <script src="https://cdn.jsdelivr.net/gh/Advik-Gupta/basic-function/cdn.min.js"></script>
@@ -34,7 +37,7 @@ print('Hello World');
 
 # Functions
 
-print()
+#### Print
 
 ```
 // Print something (use instead of console.log)
@@ -44,7 +47,7 @@ print('Hello World')
 // Output - Hello World
 ```
 
-removeFromArray()
+#### Remove From Array
 
 ```
 // Remove and item from array (arr = array to remove value from, value = value to remove from the array)
@@ -55,7 +58,7 @@ removeFromArray(arr, 13)
 // Output - [10,11,12,14]
 ```
 
-shuffleArray()
+#### Shuffle Array
 
 ```
 // Shuffle the contents of an array into a random order
