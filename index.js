@@ -1,3 +1,3 @@
-module.exports = function(input) {
+module.exports.print = function(input) {
 	console.log(input);
 };
