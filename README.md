@@ -4,8 +4,16 @@ A collection of basic functions so that you don't have to write them every time.
 
 # Installing
 
+NPM:
+
 ```
 npm i basic-function
+```
+
+CDN:
+
+```
+<script src="https://cdn.jsdelivr.net/gh/Advik-Gupta/basic-function/cdn.min.js"></script>
 ```
 
 # Example
