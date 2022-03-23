@@ -19,8 +19,8 @@ CDN:
 # Example
 
 ```
-import {print} from 'basic-function'
+const { print } = require('@advikguptadev/basic-function');
 
-// Using the print function to print something
-print("Hello World")
+// Print function inspired by python (use instead of console.log)
+print('Hello World');
 ```
