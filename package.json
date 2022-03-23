@@ -1,6 +1,6 @@
 {
   "name": "@advikguptadev/basic-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of basic functions so that you don't have to write them every time.",
   "main": "index.js",
   "scripts": {

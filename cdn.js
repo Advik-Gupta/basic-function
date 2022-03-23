@@ -1,13 +1,16 @@
+// Print something (use instead of console.log)
 print = function(input) {
 	console.log(input);
 };
 
+// Remove and item from array (arr = array to remove value from, value = value to remove from the array)
 removeFromArray = function(arr, value) {
 	return arr.filter(function(ele) {
 		return ele !== value;
 	});
 };
 
+// Shuffle the contents of an array into a random order
 shuffleArray = function(array) {
 	let currentIndex = array.length,
 		randomIndex;
