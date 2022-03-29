@@ -27,3 +27,31 @@ shuffleArray = function(array) {
 
 	return array;
 };
+
+// Merge any two arrays
+mergeArrays = function(array1, array2) {
+	let merged = array1.concat(array2);
+
+	return merged;
+};
+
+// Merge any two objects
+mergeObjects = function(object1, object2) {
+	let merged = { ...object1, ...object2 };
+
+	return merged;
+};
+
+// Measure the duration it takes to run any function
+functionDuration = function(function1, function1arguments = [], printResult = false) {
+	const start = performance.now();
+	const functionResult = function1(...function1arguments);
+	const end = performance.now();
+	const time = end - start;
+
+	if (printResult) {
+		console.log(functionResult);
+	}
+
+	return `This function took ${time} milliseconds to operate.`;
+};
