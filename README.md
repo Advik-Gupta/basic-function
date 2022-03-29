@@ -12,6 +12,7 @@ A collection of basic functions so that you don't have to write them every time.
     - [Shuffle Array](#shuffle-array)
     - [Merge Arrays](#merge-arrays)
     - [Merge Objects](#merge-objects)
+    - [Measure Function Duration](#measure-function-duration)
 
 
 # Installing
